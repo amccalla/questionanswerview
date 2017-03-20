@@ -11,6 +11,7 @@ QuestionAnswerView is an iOS view used for displaying expandable question and an
 QuestionAnswerView works on iOS 8.0 and greater. It requires Xcode 8.0 or greater, as it uses Swift 3.0.
 
 <br/>
+
 ### Usage
 The question answer view can be added using Interface Builder or programmatically. Here is an example of adding it programmatically:
 
@@ -24,6 +25,7 @@ A plist must be included in the project which contains the questions and answers
 ![Plist Sample](http://i.imgur.com/3ssk3P6l.png)
 
 <br/>
+
 ### Customization
 Set the plist of questions and answers to be loaded.
 
