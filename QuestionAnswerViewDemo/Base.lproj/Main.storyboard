@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Esp-bN-ztb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="HTr-g4-Dq0">
+            <objects>
+                <navigationController id="Esp-bN-ztb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rru-y2-5rk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5BG-QU-G8X" kind="relationship" relationship="rootViewController" id="JL9-6g-EHl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S7G-Ls-ZUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-379" y="415"/>
+        </scene>
+        <!--Question Answers-->
+        <scene sceneID="Fcl-Bx-sVI">
+            <objects>
+                <viewController id="5BG-QU-G8X" customClass="ViewController" customModule="QuestionAnswerViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lu5-Ni-jee"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gme-oe-alz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TTd-zu-XEi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QbC-8d-IEs" customClass="QuestionAnswerView" customModule="QuestionAnswerViewDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="questionCellBackgroundColor">
+                                        <color key="value" red="0.92623913288116455" green="0.92137688398361206" blue="0.92149817943572998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="answerCellBackgroundColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tableViewBackgroundColor">
+                                        <color key="value" red="0.92623913288116455" green="0.92137688398361206" blue="0.92149817943572998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="questionTextColor">
+                                        <color key="value" red="0.33333333329999998" green="0.29803921570000003" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="answerTextColor">
+                                        <color key="value" red="0.33333333329999998" green="0.29803921570000003" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QbC-8d-IEs" secondAttribute="trailing" id="33t-jt-qPU"/>
+                            <constraint firstItem="QbC-8d-IEs" firstAttribute="leading" secondItem="TTd-zu-XEi" secondAttribute="leading" id="LY9-6X-tGb"/>
+                            <constraint firstItem="QbC-8d-IEs" firstAttribute="top" secondItem="TTd-zu-XEi" secondAttribute="top" id="O5I-Fx-EkW"/>
+                            <constraint firstItem="Gme-oe-alz" firstAttribute="top" secondItem="QbC-8d-IEs" secondAttribute="bottom" id="lfm-h8-95x"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question Answers" id="Zee-ya-dRY"/>
+                    <connections>
+                        <outlet property="questionAnswerView" destination="QbC-8d-IEs" id="ngO-IB-M8N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Xl-Xb-dpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="415"/>
+        </scene>
+    </scenes>
+</document>

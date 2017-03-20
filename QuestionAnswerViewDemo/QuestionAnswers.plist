@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Question 1</string>
+		<key>answer</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate nunc velit, in pretium tortor feugiat sed. Fusce sagittis orci ut odio tincidunt, et molestie neque venenatis. Vestibulum viverra tincidunt libero id vestibulum. Integer ullamcorper efficitur sapien a molestie. Donec cursus massa ut faucibus aliquet. Nulla sapien sapien, eleifend quis luctus sit amet, condimentum in ligula. Suspendisse tempus magna nec iaculis blandit. Etiam molestie sollicitudin dui. Ut bibendum enim tortor, id rhoncus lorem finibus at.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Question 2</string>
+		<key>answer</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate nunc velit, in pretium tortor feugiat sed. Fusce sagittis orci ut odio tincidunt, et molestie neque venenatis. Vestibulum viverra tincidunt libero id vestibulum. Integer ullamcorper efficitur sapien a molestie. Donec cursus massa ut faucibus aliquet. Nulla sapien sapien, eleifend quis luctus sit amet, condimentum in ligula. Suspendisse tempus magna nec iaculis blandit. Etiam molestie sollicitudin dui. Ut bibendum enim tortor, id rhoncus lorem finibus at.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Question 3</string>
+		<key>answer</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate nunc velit, in pretium tortor feugiat sed. Fusce sagittis orci ut odio tincidunt, et molestie neque venenatis. Vestibulum viverra tincidunt libero id vestibulum. Integer ullamcorper efficitur sapien a molestie. Donec cursus massa ut faucibus aliquet. Nulla sapien sapien, eleifend quis luctus sit amet, condimentum in ligula. Suspendisse tempus magna nec iaculis blandit. Etiam molestie sollicitudin dui. Ut bibendum enim tortor, id rhoncus lorem finibus at.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Question 4</string>
+		<key>answer</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate nunc velit, in pretium tortor feugiat sed. Fusce sagittis orci ut odio tincidunt, et molestie neque venenatis. Vestibulum viverra tincidunt libero id vestibulum. Integer ullamcorper efficitur sapien a molestie. Donec cursus massa ut faucibus aliquet. Nulla sapien sapien, eleifend quis luctus sit amet, condimentum in ligula. Suspendisse tempus magna nec iaculis blandit. Etiam molestie sollicitudin dui. Ut bibendum enim tortor, id rhoncus lorem finibus at.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Question 5</string>
+		<key>answer</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate nunc velit, in pretium tortor feugiat sed. Fusce sagittis orci ut odio tincidunt, et molestie neque venenatis. Vestibulum viverra tincidunt libero id vestibulum. Integer ullamcorper efficitur sapien a molestie. Donec cursus massa ut faucibus aliquet. Nulla sapien sapien, eleifend quis luctus sit amet, condimentum in ligula. Suspendisse tempus magna nec iaculis blandit. Etiam molestie sollicitudin dui. Ut bibendum enim tortor, id rhoncus lorem finibus at.</string>
+	</dict>
+</array>
+</plist>
