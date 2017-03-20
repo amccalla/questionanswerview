@@ -8,7 +8,7 @@ QuestionAnswerView is an iOS view used for displaying expandable question and an
 <br/>
 
 ### Requirements
-QuestionAnswerView works on iOS 8.0 and greater. It requires Xcode 7.0 or greater, as it uses Swift 2.0.
+QuestionAnswerView works on iOS 8.0 and greater. It requires Xcode 8.0 or greater, as it uses Swift 3.0.
 
 <br/>
 ### Usage
